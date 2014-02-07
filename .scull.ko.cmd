@@ -1,0 +1,1 @@
+cmd_/home/drivertest/list/scull.ko := ld -r -m elf_i386 -T /usr/src/linux-3.9.5/scripts/module-common.lds --build-id  -o /home/drivertest/list/scull.ko /home/drivertest/list/scull.o /home/drivertest/list/scull.mod.o
